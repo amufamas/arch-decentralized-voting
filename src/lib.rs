@@ -1710,3 +1710,7 @@ fn get_previous_vote(
         Err(_) => None,
     }
 }
+
+pub fn create_poll(title: String, options: Vec<String>, end_time: u64) {
+    // Logic for creating a decentralized poll
+}
